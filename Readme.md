@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Nadi Ermakova](https://htmlacademy.ru/profile/id142942).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Альтигин](https://vk.com/altigin).
 
 ---
 
