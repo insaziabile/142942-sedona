@@ -1,0 +1,25 @@
+body {
+	color: #333333;
+	font-family: PT Sans;
+	font-size: 14px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+h2.reason-title, h3.features-name {
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 21px;
+}
+
+b.intrested {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 24px;
+}
