@@ -3,13 +3,25 @@ body {
 	font-family: PT Sans;
 	font-size: 14px;
 	margin: 0;
+	padding: 0;
 	text-transform: uppercase;
 }
 
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 h1 {
+	color: #000000;
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 26px;
+}
+
+h3 {
+	color: #000000;
 }
 
 h2.reason-title, h3.features-name {
@@ -18,8 +30,124 @@ h2.reason-title, h3.features-name {
 	line-height: 21px;
 }
 
-b.intrested {
+b.interested-title {
 	font-size: 30px;
 	font-weight: bold;
 	line-height: 24px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1199px;
+	outline: 1px solid #000; /* Для оформления */
+}
+
+header {
+	background-color: rgb(192,192,192); /* Для оформления */
+}
+
+main {
+	background-color: rgb(128,0,128); /* Для оформления */
+}
+
+footer {
+	background-color: rgb(0,128,128); /* Для оформления */
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.main-navigation li {
+	display: inline;
+	list-style-type: none;
+	width: 20%;
+}
+
+img.promo-block {
+	display: block;
+}
+
+.reasons {
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+	width: 575px;
+}
+
+.main-reason {
+	background-color: #81b3d2;
+	color: #ffffff;
+	margin: 0;
+	text-align: center;
+	width: 1199px;
+}
+
+img.reason-image1 {
+	float: right;
+}
+
+img.reason-image2 {
+	float: left;
+}
+
+.main-reason-title {
+	padding-top: 32px;
+}
+
+.features {
+	width: 1199px;
+}
+
+.features-item, .reason-item {
+	float: left;
+	padding: 50px 0;
+	text-align: center;
+	width: 33%;
+}
+
+.features-text {
+	padding: 0 50px;
+}
+
+.additional-reasons {
+	background-color: #eeeeee;
+	width: 1199px;
+}
+
+.interested {
+	margin: 0 auto;
+	padding-top: 45px;
+	text-align: center;
+	width: 480px;
+}
+
+.interested-text {
+	margin: 30px 0;
+}
+
+.form-wrapper p {
+	background-color: #766357;
+	color: #ffffff;
+	font-size: 21px;
+	margin: 40px auto 0;
+	padding: 25px 0;
+	text-align: center;
+	width: 575px;
+}
+
+.footer-website {
+	float: right;
+	margin-right: 100px;
+}
+
+.footer-social {
+	float: ;
+	margin: 0 200px;
+}
+
+a.hashtag {
+	font-size: 21px;
+	padding-left: 125px;
 }
