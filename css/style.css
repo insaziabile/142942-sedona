@@ -89,6 +89,9 @@ b.interested-title {
 	font-size: 30px;
 	font-weight: bold;
 	line-height: 24px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 30px;
 }
 
 a {
@@ -100,6 +103,7 @@ img.logo {
 	margin-left: -67px;
 	left: 50%;
 	position: absolute;
+    z-index: 1;
 }
 
 .main-navigation {
@@ -141,14 +145,19 @@ img.logo {
 
 .promo-block {
 	background: #e4f1f9 url(../img/promo-block-bg.jpg) no-repeat;
-	text-align: center;
 	background-position: 50% 50%;
+	position: relative;
 }
 
-.promo-block .frame {
-	background: url(../img/promo-block-frame.png) no-repeat;
+.promo-block img.promo-block-frame {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+.promo-block .promo-block-slogan {
+	text-align: center;
 	padding: 75px 0;
-	background-position: bottom center;
 }
 
 .reasons {
@@ -187,16 +196,17 @@ img.logo {
 }
 
 .main-reason .reason-item {
-	width: 33.33333%;
+	width: 34%;
 	background-color: #81b3d2;
+	float: left;
+	text-align: center;
 }
 
 .main-reason.reason-second .reason-item {
 	float: right;
 }
 
-.features-item,
-.reason-item {
+.features-item, .reason-item {
 	float: left;
 	text-align: center;
 	width: 33.33333%;
@@ -250,12 +260,6 @@ img.logo {
 	padding-top: 60px;
 	text-align: center;
 	width: 480px;
-}
-
-b.interested-title {
-	padding: 0;
-	margin: 0;
-	margin-bottom: 30px;
 }
 
 p.interested-text {
@@ -822,6 +826,7 @@ b.sorting-list-title {
 .footer-website span {
 	display: inline-block;
 	text-align: left;
+	padding-right: 4px;
 }
 
 a.hashtag {
