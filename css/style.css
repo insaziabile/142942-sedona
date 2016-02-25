@@ -821,11 +821,17 @@ b.sorting-list-title {
   padding-bottom: 80px;
   background-position: 50% 50%;
   width: 100%;
+  height: 593px;
 }
 
 .footer-wrapper {
   padding: 35px 0 35px 0;
   width: 100%;
+}
+
+.footer-transparent {
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: -115px;
 }
 
 .footer-hashtag {
@@ -898,13 +904,16 @@ a.website {
   vertical-align: middle;
   height: 39px;
   width: 113px;
-  background: #ffffff url(../img/logo-html-academy.png) no-repeat;
+  background-image: url(../img/logo-html-academy.png);
+  background-repeat: no-repeat;
 }
 
 a.website:hover {
-  background: #ffffff url(../img/logo-html-academy-blue.png) no-repeat;
+  background-image: url(../img/logo-html-academy-blue.png);
+  background-repeat: no-repeat;
 }
 
 a.website:active {
-  background: #ffffff url(../img/logo-html-academy-gray.png) no-repeat;
+  background-image: url(../img/logo-html-academy-gray.png);
+  background-repeat: no-repeat;
 }
